@@ -5,7 +5,7 @@ import convertDate from "../utils/convertDate";
 import useAuth from "../hooks/useAuth";
 
 
-const baseUrl = 'http://localhost:3030/data/comments'
+const baseUrl = `${import.meta.env.VITE_APP_SERVER_URL}/data/comments`
 
 export const useAllComments = (recipeId) => {
     const [comments, setComments] = useState([]);

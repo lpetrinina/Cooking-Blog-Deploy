@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import { request } from "../utils/requester";
 import { UserContext } from "../contexts/UserContext";
 
-const baseURL = 'http://localhost:3030/users';
+const baseURL = `${import.meta.env.VITE_APP_SERVER_URL}/users`;
 
 // use hook on event
 export const useLogin = () => {

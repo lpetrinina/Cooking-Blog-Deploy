@@ -6,7 +6,7 @@ import formatData from "../utils/formatData"
 import useAuth from "../hooks/useAuth";
 
 
-const baseUrl = 'http://localhost:3030/data/recipes';
+const baseUrl = `${import.meta.env.VITE_APP_SERVER_URL}/data/recipes`;
 
 //use hook on event
 export const useCreateRecipe = () => {
