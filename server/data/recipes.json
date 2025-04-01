@@ -1,0 +1,77 @@
+{
+  "26765a50-2167-4ac2-aee0-36c81d2ce6b1": {
+    "title": "Peanut Butter Banana Baked Oatmeal",
+    "description": "Delicious double chocolate peanut butter banana baked oatmeal naturally sweetened with ripe banana, pure maple syrup, and of course, your fav chocolate chips! This chocolate peanut butter baked oatmeal recipe is packed with protein, fiber and healthy fats for a nutritious breakfast you’ll make again and again.",
+    "prepTime": 15,
+    "cookTime": 25,
+    "imageUrl": "https://www.ambitiouskitchen.com/wp-content/uploads/2022/07/Double-Chocolate-Peanut-Butter-Banana-Baked-Oatmeal-7-594x594.jpg",
+    "ingredients": [
+      "1 heaping cup of ripe mashed banana (from 2 medium/large extra ripe bananas)",
+      "1/2 cup creamy or crunchy natural peanut butter (just peanuts + salt)",
+      "2 eggs",
+      "1/4 cup pure maple syrup",
+      "3/4 cup unsweetened vanilla almond milk or oat milk (or milk of choice)",
+      "1 teaspoon vanilla extract",
+      "1 1/2 cups old fashioned rolled oats, gluten free if desired",
+      "1/3 cup unsweetened cocoa powder or cacao powder",
+      "1 teaspoon baking powder",
+      "1/4 teaspoon salt",
+      "1/2 cup chocolate chips (dairy free, if desired)"
+    ],
+    "steps": [
+      "Preheat the oven to 350 degrees F. Grease a 9x9 inch baking dish with nonstick cooking spray.",
+      "In a large bowl, add 1 cup of mashed banana, peanut butter, eggs, maple syrup, milk of choice and vanilla extract. Whisk until well combined.",
+      "Add the dry ingredients to the wet ingredients: oats, cocoa powder, baking powder and salt. Mix until well incorporated. Stir in the chocolate chips.",
+      "Pour into the prepared baking dish and spread out evenly. Dollop with teaspoonfuls of peanut butter on top, then use a knife to swirl, just about 3-4 times. Don’t go overboard with the swirling or the oatmeal won’t look pretty. Finally top the oatmeal with 2 tablespoons chocolate chips.",
+      "Bake for 25-30 minutes or until the oatmeal is set in the middle. Remove and allow to cool for 10 minutes before sprinkling with a little sea salt and serving. I love serving this warm in a bowl with a little milk or with raspberries on top, but you do you!"
+    ],
+    "_id": "26765a50-2167-4ac2-aee0-36c81d2ce6b1"
+  },
+  "7b8055ed-d88e-4bfa-b7ff-be79d51a9d28": {
+    "title": "Ridiculously Good Wild Blueberry Muffin Smoothie",
+    "description": "Ridiculously good blueberry smoothie made with wild blueberries that tastes just like a freshly baked blueberry muffin! This nutritious blueberry muffin smoothie is naturally sweetened without banana, has a boost of protein from greek yogurt, and is filled with muffin flavor thanks to rolled oats & flaxseed. Optional flavor add-ins included for this delicious breakfast or snack!",
+    "prepTime": 5,
+    "cookTime": 0,
+    "imageUrl": "https://www.ambitiouskitchen.com/wp-content/uploads/2022/05/Wild-Blueberry-Muffin-Smoothie-5-594x594.jpg",
+    "ingredients": [
+      "1 cup frozen wild blueberries (they have the best flavor!)",
+      "2 large Medjool dates, pitted and softened if necessary",
+      "1/2 cup vanilla greek yogurt (plain also works but vanilla has better flavor!)",
+      "1/2 teaspoon vanilla extract",
+      "1 tablespoon flaxseed meal",
+      "1 tablespoon hemp hearts",
+      "1/4 cup rolled oats, gluten free if desired",
+      "2/3 cup unsweetened oat or almond milk (or sub any milk of choice!)"
+    ],
+    "steps": [
+      "Add all ingredients to a high powered blender: blueberries, dates, yogurt, flaxseed meal, hemp hearts, rolled oats and milk. Feel free to add any optional add-ins to your smoothie if you’d like. Blend until smooth, adding more milk to thin, if necessary. Pour into a glass and enjoy! "
+    ],
+    "_id": "7b8055ed-d88e-4bfa-b7ff-be79d51a9d28"
+  },
+  "ea6b9657-1f5d-45e3-a012-fec2340ce8ab": {
+    "title": "Brown Butter Strawberry Baked Oatmeal",
+    "description": "Beautiful brown butter strawberry baked oatmeal with a light strawberry glaze. This easy strawberry baked oatmeal is naturally sweetened with a little pure maple syrup and makes the perfect nourishing breakfast or brunch for spring and summer!",
+    "prepTime": 20,
+    "cookTime": 35,
+    "imageUrl": "https://www.ambitiouskitchen.com/wp-content/uploads/2024/02/Brown-Butter-Strawberry-Baked-Oatmeal-7-594x594.jpg",
+    "ingredients": [
+      "4 tablespoons (56 grams) salted butter, sliced",
+      "2 large eggs",
+      "1 1/2 cups (360 grams) milk of choice",
+      "1/4 cup (78 grams) pure maple syrup",
+      "1 teaspoon vanilla extract",
+      "1/4 teaspoon almond extract",
+      "2 cups (180 grams) rolled oats (gluten-free if desired)",
+      "1 teaspoon baking powder",
+      "1/4 teaspoon kosher salt",
+      "1 1/2 cups (225 grams) sliced fresh strawberries, divided"
+    ],
+    "steps": [
+      "Preheat the oven: Preheat the oven to 350°F. Grease an 8-inch square pan with cooking spray.",
+      "Brown the butter: Add the butter to a small saucepan and melt over medium heat. Once melted, whisk constantly: the butter will begin to crackle, then foam. After a few minutes, the butter will begin to turn a golden amber color. As soon as the butter turns brown and gives off a nutty aroma, 5 to 8 minutes, remove from heat and set aside to cool for 5 minutes.",
+      "In a large bowl, whisk the eggs, milk, maple syrup, vanilla extract, and almond extract until smooth and combined.",
+      "Add the oats, baking powder, and salt, and mix with a wooden spoon until combined. Stir in the cooled brown butter until well combined. Next, fold in HALF of the strawberries."
+    ],
+    "_id": "ea6b9657-1f5d-45e3-a012-fec2340ce8ab"
+  }
+}

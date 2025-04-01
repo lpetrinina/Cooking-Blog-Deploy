@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Header  */
+
+.header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.header h2 {
+  color: rgb(219 39 119);
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 2.25rem;
+}
+
+/* Form */
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #374151;
+  font-weight: 500;
+  order: -1;
+}
+
+input:required ~ label::after {
+  display: inline-block;
+  content: "*";
+  color: rgb(219 39 119);
+  margin-left: 3px;
+}
+
+.field input {
+  display: block;
+  margin-top: 0.25rem;
+  padding: 0.5rem 1rem;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+
+.field input:focus {
+  outline: 1px solid #f9a8d4;
+}
+
+.field input:user-invalid {
+  border: 1px solid #b91c1c;
+}
+
+.field input:focus:user-invalid {
+  outline: none;
+}
+
+.field .error-msg {
+  font-size: 0.875rem;
+  font-style: italic;
+  align-self: flex-end;
+  color: #b91c1c;
+}
+
+.link-container {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  /* line-height: 1.25rem; */
+
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.link-to-login {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  font-weight: 500;
+  color: rgb(219 39 119);
+}
+
+.link-to-login:hover {
+  text-decoration: underline;
+  color: #be185d;
+}
+
+.link-container p {
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .header h2 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+  }
+
+  .field input {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}

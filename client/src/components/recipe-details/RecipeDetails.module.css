@@ -1,0 +1,247 @@
+/* Common styles */
+.wrapper > * {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.wrapper {
+  border: 2px solid pink;
+  border-radius: 3px;
+  padding: 3.125rem;
+}
+
+/* Header */
+
+.section-header {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.section-header .text-container {
+  flex: 1 1 65%;
+}
+
+.section-header .image-container {
+  flex: 0 1 auto;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 8px;
+}
+
+.post-title {
+  font-size: 2.75rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 1.2;
+  padding-bottom: 1.25rem;
+}
+
+.post-info {
+  font-style: italic;
+  line-height: 1.6;
+  margin: 1.25rem 0;
+}
+
+.recipe-times {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+
+  line-height: 1.7;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  padding: 0.94rem 0;
+  margin-top: 2.5rem;
+  border-top: 1px solid #bfbebc;
+  border-bottom: 1px solid #bfbebc;
+}
+
+.recipe-times div {
+  flex: 1 1 30%;
+}
+
+.recipe-times > div:nth-child(2) {
+  border-right: 1px solid #bfbebc;
+  border-left: 1px solid #bfbebc;
+}
+
+.rt-label {
+  font-size: 0.875rem;
+}
+
+.rt-value {
+  margin-top: 0.94rem;
+  font-size: 0.75rem;
+}
+
+.recipe-feedback {
+  display: flex;
+  margin: 25px 0;
+  justify-content: space-evenly;
+}
+
+.recipe-feedback img {
+  width: 20px;
+  height: 20px;
+}
+
+.recipe-feedback p {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  font-size: 0.875rem;
+}
+
+.likes,
+.coments {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Section Ingredients */
+
+.section-ingredients {
+  /* border-top: 1px solid pink; */
+  border-top: 1px dashed pink;
+  border-style: dashed;
+}
+
+.section-ingredients h2,
+.section-instructions h2 {
+  font-size: 1.69rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin: 1.876rem 0;
+}
+
+.ingredients-list li {
+  font-size: inherit;
+  margin-bottom: 0.625rem;
+}
+
+/* Section Instructions */
+
+.section-instructions {
+  border-top: 1px solid #bfbebc;
+}
+
+.instructions-list li {
+  font-size: inherit;
+  display: flex;
+  align-items: first baseline;
+  gap: 5px;
+}
+
+.instructions-list li:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+.instructions-list li .step {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.like-msg {
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 500;
+  color: rgb(244 114 182);
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  * {
+    font-size: 14px;
+  }
+
+  .post-title {
+    font-size: 2.57rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .wrapper {
+    position: relative;
+    margin-top: 80px;
+  }
+
+  .section-header {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .section-header {
+    margin: 0 auto;
+    margin-top: 9.28rem;
+  }
+
+  .image-container img {
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -45%);
+  }
+  .section-header .post-title,
+  .section-header .post-info {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 840px) {
+  .container {
+    gap: 1rem;
+  }
+
+  .section-header {
+    margin-top: 6.4rem;
+  }
+
+  .post-title {
+    font-size: 2.14rem;
+  }
+}
+
+@media (max-width: 630px) {
+  * {
+    font-size: 12px;
+  }
+
+  .wrapper {
+    padding: 1.67rem;
+  }
+
+  .section-ingredients h2,
+  .section-instructions h2 {
+    font-size: 1.33rem;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-header {
+    margin-top: 5.5rem;
+  }
+
+  .post-title {
+    font-size: 1.5rem;
+  }
+}
